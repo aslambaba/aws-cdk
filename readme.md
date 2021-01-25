@@ -19,8 +19,11 @@ cdk init app --language typescript
 or
 clone my repository or particular project.
 
-- Within that Directory
+#### Within that Directory Run:
 
+```
 npm run build -> (For Build TypeScript)
 cdk synth -> (Synth to check your auto generated yaml file)
 cdk deploy -> (Deploy your stacks on AWS)
+
+```
