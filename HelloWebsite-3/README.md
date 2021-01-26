@@ -1,5 +1,22 @@
 # Welcome to S3-Deployemnt project!
 
+There we deploy a simple website Using modules:
+
+- S3
+- S3 Deployment
+- cloudfront
+- cloudfrond-origins
+
+#### Install Required Modules
+
+```
+npm install @aws-cdk/aws-s3
+npm install @aws-cdk/aws-s3-deployment
+npm install @aws-cdk/aws-cloudfront
+npm install @aws-cdk/aws-cloudfront-origins
+
+```
+
 ## Useful commands
 
  * `npm run build`   compile typescript to js
