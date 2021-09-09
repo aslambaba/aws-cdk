@@ -1,8 +1,8 @@
 {
-  "name": "hello_app_sync-with_lambda-4",
+  "name": "app_syncwith_lambda-4",
   "version": "0.1.0",
   "bin": {
-    "hello_app_sync-with_lambda-4": "bin/hello_app_sync-with_lambda-4.js"
+    "app_syncwith_lambda-4": "bin/app_syncwith_lambda-4.js"
   },
   "scripts": {
     "build": "tsc",
@@ -21,9 +21,9 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/aws-appsync": "^1.88.0",
-    "@aws-cdk/aws-lambda": "^1.88.0",
-    "@aws-cdk/core": "^1.86.0",
+    "@aws-cdk/aws-appsync": "^1.122.0",
+    "@aws-cdk/aws-lambda": "^1.122.0",
+    "@aws-cdk/core": "1.86.0",
     "source-map-support": "^0.5.16"
   }
 }
