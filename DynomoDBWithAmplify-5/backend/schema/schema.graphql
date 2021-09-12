@@ -1,0 +1,12 @@
+type Student = {
+    StudentId: String,
+    StudentName: String,
+    StudentClass: Number,
+}
+
+type Query = {
+    GetStuents: [Student]
+}
+type Mutation = {
+    AddStudent: String
+}
